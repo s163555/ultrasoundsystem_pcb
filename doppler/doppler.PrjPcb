@@ -50,23 +50,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Transmitter.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CJHNTGTK
-
-[Document2]
 DocumentPath=Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
+[Document2]
 DocumentPath=Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJHOKYIJ
 
-[Document6]
+[Document5]
 DocumentPath=ActiveBOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,85 +134,122 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=Transmitter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VXXHPWVM
+
 [Parameter1]
-Name=CAGE_CODE
-Value=?????
+Name=SCH_REV
+Value=A
 
 [Parameter2]
-Name=CONTRACT_NUMBER
-Value=<CONTRACT NO>
+Name=PROJECT
+Value=ultrasoundsystem
 
 [Parameter3]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
+Name=PCB_REV
+Value=A
 
 [Parameter4]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
 
 [Parameter5]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
+Name=PCB_ENGINEER_APP_DATE
+Value=--/--/----
 
 [Parameter6]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
+Name=PCB_ENGINEER
+Value=JH
 
 [Parameter7]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
+Name=PCB_DWG_NO
+Value=<PCB DWG NO>
 
 [Parameter8]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
+Name=PCB_DESIGNER_APP_DATE
+Value=--/--/----
 
 [Parameter9]
-Name=PCB_ANG_TOL
-Value=+/-1/2
+Name=PCB_DESIGNER
+Value=JH
 
 [Parameter10]
-Name=PCB_ASSEMBLY_NO
-Value=<PCB ASSY NO>
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
 
 [Parameter11]
 Name=PCB_CHECKER
 Value=- -----
 
 [Parameter12]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
+Name=PCB_ASSEMBLY_NO
+Value=<PCB ASSY NO>
 
 [Parameter13]
-Name=PCB_DESIGNER
-Value=- -----
+Name=PCB_ANG_TOL
+Value=+/-1/2
 
 [Parameter14]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
+Name=PCB_3_DEC_TOL
+Value=+/-.010
 
 [Parameter15]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
+Name=PCB_2_DEC_TOL
+Value=+/-.01
 
 [Parameter16]
-Name=PCB_ENGINEER
-Value=- -----
+Name=MOTD
+Value=(c) BMM Laboratory
 
 [Parameter17]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
+Name=DOC_NO_SCH_DWG
+Value=<SCH DWG NO>
 
 [Parameter18]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
+Name=DOC_NO_FAB_DWG
+Value=<FAB DWG NO>
 
 [Parameter19]
-Name=PCB_REV
-Value=A
+Name=DOC_NO_BOM
+Value=<BOM DOC NO>
 
 [Parameter20]
-Name=SCH_REV
-Value=A
+Name=DOC_NO_ASSY_DWG
+Value=<ASSY DWG NO>
+
+[Parameter21]
+Name=DesignedByURL
+Value=JH
+
+[Parameter22]
+Name=CONTRACT_NUMBER
+Value=<CONTRACT NO>
+
+[Parameter23]
+Name=COMPANY
+Value=KAIST
+
+[Parameter24]
+Name=CAGE_CODE
+Value=?????
+
+[Parameter25]
+Name=
+Value=
 
 [Configuration1]
 Name=Default Configuration

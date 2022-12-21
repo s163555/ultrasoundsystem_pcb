@@ -1,4 +1,4 @@
-## 28Pins Project
+## Ultrasound System Project
 
 ### Starting
 To download this project to your computer:
@@ -21,4 +21,4 @@ To download this project to your computer:
 
 ### Download the latest changes
 If you would like to download the latest files from Github, then:<br />
-1. `git pull origin master` # this will download the latest files from Github to your local computer<br />
+1. `git pull origin main` # this will download the latest files from Github to your local computer<br />
