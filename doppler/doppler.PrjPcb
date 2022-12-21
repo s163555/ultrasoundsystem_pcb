@@ -135,6 +135,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
+DocumentPath=Blockdiagram.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CWOZFTQN
+
+[Document7]
 DocumentPath=Transmitter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,105 +168,118 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VXXHPWVM
 
+[Document8]
+DocumentPath=Receiver.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Parameter1]
-Name=SCH_REV
-Value=A
-
-[Parameter2]
-Name=PROJECT
-Value=ultrasoundsystem
-
-[Parameter3]
-Name=PCB_REV
-Value=A
-
-[Parameter4]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
-
-[Parameter5]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
-
-[Parameter6]
-Name=PCB_ENGINEER
-Value=JH
-
-[Parameter7]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
-
-[Parameter8]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
-
-[Parameter9]
-Name=PCB_DESIGNER
-Value=JH
-
-[Parameter10]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
-
-[Parameter11]
-Name=PCB_CHECKER
-Value=- -----
-
-[Parameter12]
-Name=PCB_ASSEMBLY_NO
-Value=<PCB ASSY NO>
-
-[Parameter13]
-Name=PCB_ANG_TOL
-Value=+/-1/2
-
-[Parameter14]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
-
-[Parameter15]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
-
-[Parameter16]
-Name=MOTD
-Value=(c) BMM Laboratory
-
-[Parameter17]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
-
-[Parameter18]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
-
-[Parameter19]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
-
-[Parameter20]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
-
-[Parameter21]
-Name=DesignedByURL
-Value=JH
-
-[Parameter22]
-Name=CONTRACT_NUMBER
-Value=<CONTRACT NO>
-
-[Parameter23]
-Name=COMPANY
-Value=KAIST
-
-[Parameter24]
 Name=CAGE_CODE
 Value=?????
 
-[Parameter25]
-Name=
-Value=
+[Parameter2]
+Name=COMPANY
+Value=KAIST
+
+[Parameter3]
+Name=CONTRACT_NUMBER
+Value=<CONTRACT NO>
+
+[Parameter4]
+Name=DesignedByURL
+Value=JH
+
+[Parameter5]
+Name=DOC_NO_ASSY_DWG
+Value=<ASSY DWG NO>
+
+[Parameter6]
+Name=DOC_NO_BOM
+Value=<BOM DOC NO>
+
+[Parameter7]
+Name=DOC_NO_FAB_DWG
+Value=<FAB DWG NO>
+
+[Parameter8]
+Name=DOC_NO_SCH_DWG
+Value=<SCH DWG NO>
+
+[Parameter9]
+Name=MOTD
+Value=(c) BMM Laboratory
+
+[Parameter10]
+Name=PCB_2_DEC_TOL
+Value=+/-.01
+
+[Parameter11]
+Name=PCB_3_DEC_TOL
+Value=+/-.010
+
+[Parameter12]
+Name=PCB_ANG_TOL
+Value=+/-1/2
+
+[Parameter13]
+Name=PCB_ASSEMBLY_NO
+Value=<PCB ASSY NO>
+
+[Parameter14]
+Name=PCB_CHECKER
+Value=- -----
+
+[Parameter15]
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
+
+[Parameter16]
+Name=PCB_DESIGNER
+Value=JH
+
+[Parameter17]
+Name=PCB_DESIGNER_APP_DATE
+Value=--/--/----
+
+[Parameter18]
+Name=PCB_DWG_NO
+Value=<PCB DWG NO>
+
+[Parameter19]
+Name=PCB_ENGINEER
+Value=JH
+
+[Parameter20]
+Name=PCB_ENGINEER_APP_DATE
+Value=--/--/----
+
+[Parameter21]
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
+
+[Parameter22]
+Name=PCB_REV
+Value=A
+
+[Parameter23]
+Name=PROJECT
+Value=ultrasoundsystem
+
+[Parameter24]
+Name=SCH_REV
+Value=A
 
 [Configuration1]
 Name=Default Configuration
