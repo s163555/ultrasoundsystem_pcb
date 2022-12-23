@@ -203,7 +203,24 @@ GenerateClassCluster=0
 DocumentUniqueId=ETBDDMDB
 
 [Document10]
-DocumentPath=5_demodulation.SchDoc
+DocumentPath=5_bp_filter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CDBUILRF
+
+[Document11]
+DocumentPath=6_demodulation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -219,8 +236,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CZAIAKHR
 
-[Document11]
-DocumentPath=6_lp_filter.SchDoc
+[Document12]
+DocumentPath=7_lp_filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -236,8 +253,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYXASUYT
 
-[Document12]
-DocumentPath=7_sample_hold_wallfilter.SchDoc
+[Document13]
+DocumentPath=8_sample_hold_wallfilter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -253,8 +270,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LVYCFVXC
 
-[Document13]
-DocumentPath=8_power.SchDoc
+[Document14]
+DocumentPath=x_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -271,104 +288,104 @@ GenerateClassCluster=0
 DocumentUniqueId=NVABZLMU
 
 [Parameter1]
-Name=VersionRevision
-Value=A
+Name=CAGE_CODE
+Value=?????
 
 [Parameter2]
-Name=SCH_REV
-Value=A
+Name=COMPANY
+Value=KAIST
 
 [Parameter3]
-Name=PROJECT
-Value=ultrasoundsystem
+Name=CONTRACT_NUMBER
+Value=<CONTRACT NO>
 
 [Parameter4]
-Name=PCB_REV
-Value=A
+Name=DesignedByURL
+Value=JH
 
 [Parameter5]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
+Name=DOC_NO_ASSY_DWG
+Value=<ASSY DWG NO>
 
 [Parameter6]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
+Name=DOC_NO_BOM
+Value=<BOM DOC NO>
 
 [Parameter7]
-Name=PCB_ENGINEER
-Value=JH
+Name=DOC_NO_FAB_DWG
+Value=<FAB DWG NO>
 
 [Parameter8]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
+Name=DOC_NO_SCH_DWG
+Value=<SCH DWG NO>
 
 [Parameter9]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
+Name=MOTD
+Value=(c) BMM Laboratory
 
 [Parameter10]
-Name=PCB_DESIGNER
-Value=JH
+Name=PCB_2_DEC_TOL
+Value=+/-.01
 
 [Parameter11]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
+Name=PCB_3_DEC_TOL
+Value=+/-.010
 
 [Parameter12]
-Name=PCB_CHECKER
-Value=- -----
+Name=PCB_ANG_TOL
+Value=+/-1/2
 
 [Parameter13]
 Name=PCB_ASSEMBLY_NO
 Value=<PCB ASSY NO>
 
 [Parameter14]
-Name=PCB_ANG_TOL
-Value=+/-1/2
+Name=PCB_CHECKER
+Value=- -----
 
 [Parameter15]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
 
 [Parameter16]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
-
-[Parameter17]
-Name=MOTD
-Value=(c) BMM Laboratory
-
-[Parameter18]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
-
-[Parameter19]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
-
-[Parameter20]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
-
-[Parameter21]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
-
-[Parameter22]
-Name=DesignedByURL
+Name=PCB_DESIGNER
 Value=JH
 
+[Parameter17]
+Name=PCB_DESIGNER_APP_DATE
+Value=--/--/----
+
+[Parameter18]
+Name=PCB_DWG_NO
+Value=<PCB DWG NO>
+
+[Parameter19]
+Name=PCB_ENGINEER
+Value=JH
+
+[Parameter20]
+Name=PCB_ENGINEER_APP_DATE
+Value=--/--/----
+
+[Parameter21]
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
+
+[Parameter22]
+Name=PCB_REV
+Value=A
+
 [Parameter23]
-Name=CONTRACT_NUMBER
-Value=<CONTRACT NO>
+Name=PROJECT
+Value=ultrasoundsystem
 
 [Parameter24]
-Name=COMPANY
-Value=KAIST
+Name=SCH_REV
+Value=A
 
 [Parameter25]
-Name=CAGE_CODE
-Value=?????
+Name=VersionRevision
+Value=A
 
 [Configuration1]
 Name=Default Configuration
@@ -564,8 +581,8 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -589,7 +606,9 @@ OutputName4=Schematic Prints
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.12|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\Users\Jeppe\Documents\Altium\ultrasoundsystem\doppler\1_toplevel.SchDoc
 OutputType5=SimView Print
 OutputName5=SimView Prints
 OutputDocumentPath5=
