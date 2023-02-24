@@ -152,7 +152,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VXXHPWVM
 
 [Document7]
-DocumentPath=3_powerstage.SchDoc
+DocumentPath=2_powerstage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -186,7 +186,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GMIVLSFD
 
 [Document9]
-DocumentPath=4_preamp.SchDoc
+DocumentPath=3_preamp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -203,7 +203,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ETBDDMDB
 
 [Document10]
-DocumentPath=5_bp_filter.SchDoc
+DocumentPath=4_bp_filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -220,7 +220,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CDBUILRF
 
 [Document11]
-DocumentPath=6_demodulation.SchDoc
+DocumentPath=5_demodulation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -237,7 +237,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CZAIAKHR
 
 [Document12]
-DocumentPath=7_lp_filter.SchDoc
+DocumentPath=6_lp_filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -254,7 +254,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BYXASUYT
 
 [Document13]
-DocumentPath=8_sample_hold_wallfilter.SchDoc
+DocumentPath=7_sample_hold_wallfilter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
