@@ -254,7 +254,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BYXASUYT
 
 [Document13]
-DocumentPath=7_sample_hold_wallfilter.SchDoc
+DocumentPath=7_wallfilter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -286,23 +286,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NVABZLMU
-
-[Document15]
-DocumentPath=8_mixer.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ECGBXIUC
 
 [Parameter1]
 Name=CAGE_CODE
