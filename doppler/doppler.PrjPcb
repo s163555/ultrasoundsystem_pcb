@@ -35,7 +35,10 @@ IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=
+ManagedProjectGUID=6B89577D-34D8-481E-9DBF-4B738475FA31
+VaultGUID=D29297AE-F58E-4BA2-98E1-17B1558EBC4D
+ReleaseVaultName=Technical University of Denmark (DTU)
+ItemGUID=6B89577D-34D8-481E-9DBF-4B738475FA31
 Template=dxp://VaultExplorer:Navigate_URL?VaultGUID=D29297AE-F58E-4BA2-98E1-17B1558EBC4D&ItemGUID=904B3FBE-AB0E-4BB3-A1E2-A2CD7FF20BEB&RevisionGUID=0CDA30FC-4800-41C2-AD4D-08E65242D0F5&"MainFilename=PCB_Project1.PrjPCB"
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
