@@ -6,4 +6,5 @@ Record=SheetSymbol|SourceDocument=1_toplevel.SchDoc|Designator=Designator|SchDes
 Record=SheetSymbol|SourceDocument=1_toplevel.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=3_preamp.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=3_preamp.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=1_toplevel.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=5_demodulation.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=5_demodulation.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=NoMainPathDocument|SourceDocument=1_toplevel.SchDoc|FileName=2_transmitter.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=1_toplevel.SchDoc|FileName=8_attenuator.SchDoc|SheetNumber=10
 Record=NoMainPathDocument|SourceDocument=1_toplevel.SchDoc|FileName=x_power.SchDoc|SheetNumber=9
