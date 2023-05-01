@@ -53,6 +53,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\..\..\..\..\..\ProgramData\Altium\Altium Designer {01870C03-A9B3-4F8F-90B8-C4B8FBBFFB3E}\VaultEditCache\8D930734-8D7A-4831-8D5C-D5A5649059E5\Released\1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -69,7 +86,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document2]
+[Document3]
 DocumentPath=Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -86,7 +103,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
+[Document4]
 DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -103,7 +120,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document5]
 DocumentPath=ActiveBOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -120,7 +137,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
 DocumentPath=1_toplevel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -137,7 +154,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWOZFTQN
 
-[Document6]
+[Document7]
 DocumentPath=2_transmitter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -154,7 +171,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VXXHPWVM
 
-[Document7]
+[Document8]
 DocumentPath=2_powerstage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -171,7 +188,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDEAAWDJ
 
-[Document8]
+[Document9]
 DocumentPath=SnapDocs\MD1213K6-G.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -188,8 +205,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMIVLSFD
 
-[Document9]
-DocumentPath=3_preamp.SchDoc
+[Document10]
+DocumentPath=4_preamp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -205,8 +222,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ETBDDMDB
 
-[Document10]
-DocumentPath=4_bp_filter.SchDoc
+[Document11]
+DocumentPath=3_bp_filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -222,7 +239,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CDBUILRF
 
-[Document11]
+[Document12]
 DocumentPath=5_demodulation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -239,25 +256,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CZAIAKHR
 
-[Document12]
-DocumentPath=6_lp_filter.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BYXASUYT
-
 [Document13]
-DocumentPath=7_wallfilter.SchDoc
+DocumentPath=6_wallfilter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -289,23 +289,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NVABZLMU
-
-[Document15]
-DocumentPath=8_attenuator.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IDBHVRRM
 
 [Parameter1]
 Name=CAGE_CODE
@@ -683,6 +666,12 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
