@@ -155,23 +155,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CWOZFTQN
 
 [Document7]
-DocumentPath=2_transmitter.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VXXHPWVM
-
-[Document8]
 DocumentPath=2_powerstage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -188,7 +171,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDEAAWDJ
 
-[Document9]
+[Document8]
 DocumentPath=SnapDocs\MD1213K6-G.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -205,7 +188,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMIVLSFD
 
-[Document10]
+[Document9]
 DocumentPath=4_preamp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -222,7 +205,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ETBDDMDB
 
-[Document11]
+[Document10]
 DocumentPath=3_bp_filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -239,7 +222,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CDBUILRF
 
-[Document12]
+[Document11]
 DocumentPath=5_demodulation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -256,7 +239,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CZAIAKHR
 
-[Document13]
+[Document12]
 DocumentPath=6_sha.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -273,7 +256,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EWJBMCHT
 
-[Document14]
+[Document13]
 DocumentPath=7_wallfilter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
