@@ -53,23 +53,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\..\..\..\ProgramData\Altium\Altium Designer {01870C03-A9B3-4F8F-90B8-C4B8FBBFFB3E}\VaultEditCache\8D930734-8D7A-4831-8D5C-D5A5649059E5\Released\1.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -86,7 +69,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
+[Document2]
 DocumentPath=Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -103,7 +86,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -120,7 +103,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=ActiveBOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -137,7 +120,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document5]
 DocumentPath=1_toplevel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -154,7 +137,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWOZFTQN
 
-[Document7]
+[Document6]
 DocumentPath=2_powerstage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -171,7 +154,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDEAAWDJ
 
-[Document8]
+[Document7]
 DocumentPath=SnapDocs\MD1213K6-G.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -188,7 +171,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMIVLSFD
 
-[Document9]
+[Document8]
 DocumentPath=4_preamp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -205,7 +188,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ETBDDMDB
 
-[Document10]
+[Document9]
 DocumentPath=3_bp_filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -222,7 +205,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CDBUILRF
 
-[Document11]
+[Document10]
 DocumentPath=5_demodulation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -239,7 +222,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CZAIAKHR
 
-[Document12]
+[Document11]
 DocumentPath=6_sha.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -256,7 +239,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EWJBMCHT
 
-[Document13]
+[Document12]
 DocumentPath=7_wallfilter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -273,7 +256,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LVYCFVXC
 
-[Document14]
+[Document13]
 DocumentPath=doppler.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,23 +272,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document15]
-DocumentPath=doppler.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YAQXVIPY
 
 [Parameter1]
 Name=CAGE_CODE
