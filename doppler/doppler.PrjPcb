@@ -257,7 +257,24 @@ GenerateClassCluster=0
 DocumentUniqueId=CZAIAKHR
 
 [Document13]
-DocumentPath=6_wallfilter.SchDoc
+DocumentPath=6_sha.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EWJBMCHT
+
+[Document14]
+DocumentPath=7_wallfilter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
